@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Online Auction</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact {
+    background-color: #f8f9fa; /* Light background color for the section */
+    padding: 20px; /* Padding around the section */
+    text-align: center; /* Center text align */
+}
+
+.contact-list {
+    display: flex; /* Enables flexbox */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines if necessary */
+    margin: 20px 0; /* Space above and below the contact list */
+}
+
+.contact-item {
+    background-color: #ffffff; /* White background for contact items */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each contact item */
+    margin: 10px; /* Margin between items */
+    flex: 1 1 200px; /* Flex grow, shrink, and basis for responsive design */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.2s; /* Transition for hover effect */
+}
+
+.contact-item:hover {
+    transform: scale(1.05); /* Grow effect on hover */
+}
+
+.contact-item img {
+    max-width: 50%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slight rounding of corners */
+}
+
+.contact-item p {
+    margin: 10px 0; /* Space between paragraphs */
+    color: #343a40; /* Dark text color for better readability */
+    font-size: 16px; /* Font size for contact information */
+}
+
+h2 {
+    font-size: 2em; /* Main heading size */
+    color: #495057; /* Darker color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+.about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    color:#2a5298;
+}
+
+.about h2 {
+    color: #555;
+}
+
+.about p {
+    line-height: 1.6;
+    color: rgb(47, 42, 42);
+}
+
+.about ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header style="background-color: blue;">
+        <div class="logo">
+            <img src="img/logo.jpeg" alt="Logo" style="width: 100px; height: 100px; border-radius:50%;">
+        </div>
+        <nav> 
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">AboutUs</a></li>
+                <li><a href="auction_validate.html">Create Bid</a></li>
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="profile.php">Profile</a></li>
+                <li><a href="delivery_tracker.php">My order</a></li>
+
+            </ul>
+            </nav>
+    </header>
+
+    <section class="about">
+        <h1>About Us</h1>
+        <p>Welcome to U-Deal, where we connect buyers and sellers in an exciting online auction environment.</p>
+        <p>Our mission is to provide a user-friendly platform where everyone can buy and sell items with ease and confidence.</p>
+        
+        <h1>Our Values</h1>
+        <ul>
+            <li>Integrity: We believe in honest and fair transactions.</li>
+            <li>Innovation: We strive for a cutting-edge platform that meets customer needs.</li>
+            <li>Community: We foster a welcoming community for all users.</li>
+        </ul>
+
+        <h1>Our History</h1>
+        <p>Founded in 2025, U-Deal started as a small project by a group of enthusiasts. Today, we have grown to serve thousands of users worldwide.</p>
+
+        <h1>Join Us</h1>
+        <p>Whether you're a buyer looking for great deals or a seller wanting to reach a broader audience, U-Deal is the perfect place for you!</p>
+
+        <h1>Terms and Condition</h1>
+        <pre>
+            1. Users must agree to these Terms and Conditions before participating in any auction or bidding
+                process on the website.
+            2. Users must be at least 18 years old to register and participate in auctions.
+            3. Users must provide accurate personal information during the registration process.
+            4. Users are required to create an account using signup to place bids.
+            5. Users are responsible for maintaining the confidentiality of their account information,
+                including passwords.
+            6. Bidding starts at the minimum set by the seller.
+            7. Bids may only be placed in specified increments.
+            8. The seller may set a reserve price that must be met for sale to occur.
+            9. Once a bid is placed, it cannot be revoked.
+            10. Buyers are responsible for monitoring auction end times and submitting bids on-time.
+            11. Sellers must accurately describe their items, including any defects or limitations.
+            12. Sellers are responsible for the delivery of the item to the winning bidder.
+            13. The payment methods accepted and the timeline for payment must be outlined.
+            14. Conditions under which bids or auctions may be cancelled.
+            15. Details regarding copyright and ownership of content on the site (e.g., logos, images).
+            16. Prohibition of unauthorized use of the website’s intellectual property.
+            17. Conditions under which a user’s account may be terminated, including violations of the terms.
+            18. We have provided contact details for inquiries regarding the terms and conditions or the auction
+                 process in about sector.
+        </pre>
+    </section>
+    <section class="contact">
+        <h2>CONTACT US</h2>
+        <div class="contact-list">
+            <div class="contact-item">
+                <img src="img/phone.jpg" alt="Phone">
+                <p style="color: blue;">9342597798</p>
+                <p><b>Phone Number</b></p>
+                
+            </div>
+            <div class="contact-item">
+                <img src="img/whatsapp.jpg" alt="Whatsapp">
+                <p style="color: blue;">8838170961</p>
+                <p><b>Whatsapp</b></p>
+            </div>
+            <div class="contact-item">
+                <img src="img/email.jpg" alt="Email">
+                <p style="color: blue;"><u>udealauction4@gmail.com</u></p>
+                <p><b>Email</b></p>
+            </div>
+        </section>
+    <footer>
+        <p>&copy; 2025 Online Auction. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
